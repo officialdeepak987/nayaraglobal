@@ -1,0 +1,677 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+   <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="boxicons.min.css">
+</head>
+<body>
+
+
+
+  <div class="sticky-nav" id="sticky">
+    <section class="banner">
+      <div class="banner-subject">
+
+        <p> <i class="fa-solid fa-phone"></i>
+
+          <a href=""> +91 9311366398(24*7)</a>
+        </p>
+
+      </div>
+      <div class="banner-subject2">
+
+        <p> <i class="fa-solid fa-envelope"></i>
+          <a href="https://mail.google.com/mail/u/3/#inbox?compose=new" target="_blank">
+            nayaraglobaltrips@gmail.com
+          </a>
+        </p>
+
+      </div>
+
+    </section>
+    <!--  -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"> <img src="./images/logo/NGT.png" alt="" width="200px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#book">Book</a>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- <a class="nav-link" href="#packages">Packages</a> -->
+              <a class="nav-link dropdown-toggle" href="#Packages" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Packages
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Domostic Packages</a></li>
+                <li><a class="dropdown-item" href="#">Business Packages</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#gallary">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  <!-- Navbar End -->
+  
+    <!-- crousel -->
+
+    <!-- <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/Kashmir (3).webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/keral.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Rajasthan.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner-img/1.jpg" class="d-block w-100" alt="banner-img" >
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-img/2.jpg" class="d-block w-100" alt=".banner-img"  >
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-img/3.jpg" class="d-block w-100" alt=".banner-img"  >
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-img/4.jpg" class="d-block w-100" alt=".banner-img"  >
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-img/5.jpg" class="d-block w-100" alt=".banner-img"  >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!-- crousel end -->
+
+
+    <!-- Home Section Start -->
+    <!-- <div class="home">
+        <div class="content">
+            <h5>Welcome To World</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>Travel, enjoy and live a new and full life</p>
+            <a href="#book">Book Place</a>
+        </div>
+    </div> -->
+    <!-- Home Section End -->
+
+
+    <!-- Section Book Start -->
+    <section class="book" id="book">
+      <div class="container">
+  
+        <div class="main-text">
+          <h1><span>B</span>ook</h1>
+        </div>
+  
+        <div class="row">
+  
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/banner-img/book-img.png" alt="NayaraGlobalTrips">
+            </div>
+          </div>
+  
+          <div class="col-md-6 py-3 py-md-0">
+            <form  action="https://formspree.io/f/xwkgoobz"
+            method="POST">
+              <input type="email" class="form-control" name="email" placeholder="Email-id" required><br>
+              <input type="number" class="form-control"name="Phone" placeholder="Phone" required><br>
+              <input type="text" class="form-control" name="location" placeholder="Where To" required><br>
+              <input type="text" class="form-control" name="Number of people" placeholder="How Many" required><br>
+              <input type="date" class="form-control" name="Date of Arrivals" placeholder="Arrivals" required><br>
+              <input type="date" class="form-control" name="Date of Leaving" placeholder="Leaving" required><br>
+              <textarea class="form-control" rows="5" name="Message" name="text" placeholder="Enter Your Name & Details" required></textarea>
+              <input type="submit" value="Book Now" class="submit" required>
+  
+            </form>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Book End -->
+
+
+    <!-- Section Packages Start -->
+    <section class="packages" id="packages">
+      <div class="container">
+        
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+
+        <div class="main-txt">
+
+          <p style="font-size: 23px;">
+            Jackpot Deals on Top Selling Packages
+            <br>
+<span>Save extra with our exclusive deals!</span>
+          </p>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/Kashmir/Jammu-and-Kashmir.jpg" alt=" Kashmir" height="250px">
+              <div class="card-body">
+                <h3>Jammu and Kashmir
+                </h3>
+                <p> WELCOME TO JAmmu & KASHMIR · JAMMU AND KASHMIR · EXPERIENCES On the Go · Trail Tours. We are ready to give you best trail tours.</p>
+                <!-- <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div> -->
+                <!-- <h6>Price: <strong>$500</strong></h6> -->
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/rajasthan/rajasthan.jpg" alt="NayaraGlobalTrips" height="250px">
+              <div class="card-body">
+                <h3>Rajasthan</h3>
+                <p>Rajasthan attracts tourists for its historical forts, palaces, art and culture with its slogan "Padharo Mhare Desh (Welcome to my land.)".</p>
+                <!-- <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div> -->
+                <!-- <h6>Price: <strong>$500</strong></h6> -->
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/Uttarakhand/licensed-image.jpeg" alt="NayaraGlobalTrips" height="250px">
+              <div class="card-body">
+                <h3>UTTARAKHAND</h3>
+                <p>DISCOVER UTTARAKHAND With God's Grace Known as Devbhumi or land of the Gods, the state holds a prominent position in the country's religious map.Feel</p>
+                <!-- <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div> -->
+                <!-- <h6>Price: <strong>$500</strong></h6> -->
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/Lakshadweep/Lakshadweep2.jpg" alt="NayaraGlobalTrips" height="250px">
+              <div class="card-body">
+                <h3>Lakshadweep</h3>
+                <p>Settled off the Kerala coast on Laccadive sea, Lakshadweep translates to ‘a hundred thousand islands’. A club of 36 atolls and coral reefs, the nature tourism destination is known for preserved  and water sports.</p>
+                <!-- <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div> -->
+                <!-- <h6>Price: <strong>$500</strong></h6> -->
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/Havelock/havelock1.jpg" alt="NayaraGlobalTrips" height="250px">
+              <div class="card-body">
+                <h3>Havelock Island</h3>
+                <p>Also known as Swaraj Island, Havelock Island is a part of Ritchie’s Archipelago in the Andamans. Its dazzling white sand beaches and fascinating coral reefs are admired by nature lovers from around the world. </p>
+                <!-- <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div> -->
+                <!-- <h6>Price: <strong>$500</strong></h6> -->
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/goa/goa1.jpeg" alt="NayaraGlobalTrips" height="250px">
+              <div class="card-body">
+                <h3>
+                  Goa</h3>
+                <p>Popularly known as India’s party capital, Goa seduces travellers from all around the globe with its boho beaches, ancient churches, majestic forts and unbeatable nightlife!</p>
+                <!-- <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div> -->
+                <!-- <h6>Price: <strong>$500</strong></h6> -->
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Section Packages End -->
+
+    <!-- Section Services Start -->
+    <!-- <section class="services" id="services">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>Affordable Hotel</h3>
+                <p>Budget-friendly comfort, prime location, memories priceless.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Food & Drinks</h3>
+                <p>Fresh flavors dance on your tongue, every bite a symphony.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Safty Guide</h3>
+                <p>First-aid kit, map, whistle, essentials for peace of mind.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <h3>Around The World</h3>
+                <p>Taste the tang of Tajine in Morocco, feel the rhythm of Rio's samba. World wonders, one flight away.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Fastest Travel</h3>
+                <p>NayaraGlobaltrips makes the impossible your next vacation.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <h3>Adventures</h3>
+                <p>Dive deep, climb high, chase sunsets under unknown skies.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- Section Services End -->
+
+
+    <!-- Section Gallary Start -->
+    <section class="gallary" id="gallary">
+      <div class="container">
+
+        <div class="main-txt">
+          <a href="./gallary.html"> <h1><span>G</span>allary</h1></a>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/rajasthan/5.jpg" alt="NayaraGlobalTrips" title="Rajasthan" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/goa/goa.jpg" alt="NayaraGlobalTrips" title="Goa" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Chardham/Char-Dham-Sikkim.jpg" alt="NayaraGlobalTrips"  title="Char-Dham" height="230px"/>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/india/Neeulm_Valley.jpg" alt="tajmahal" title="Neeulm_Valley"  height="230px"/>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/india/lotus.jpg" alt="redfort" title="Lotus Temple" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/foreign/g5.png" alt="Tripura"  title="Tripura" height="230px">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/foreign/g4.png" alt="NayaraGlobalTrips"  title="Paris" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/india/redfort.jpg" alt="NayaraGlobalTrips"  title="redfort" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/india/india.png" alt="NayaraGlobalTrips" title="tajmahal" height="230px" >
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Section Gallary End -->
+
+    <!-- About Start -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1>About <span>Us</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/banner-img/about-img.png" alt="NayaraGlobalTrips">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>How Travel Agency Work</h2>
+            <h3>World Best Travel Agency</h3>
+            <p>
+              Welcome to NayaraGlobalTrips - Travel Agency! We are a team of passionate travelers dedicated to helping your End to End plan right from Dsetenitation to experience the trip of a lifetime.
+            </p>
+
+            
+            <button id="about-btn">
+              <a href="./about.html">Read More...</a>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- About End -->
+
+
+
+     <!-- footer start -->
+
+  <footer id="footer">
+    <div class="container">
+
+
+
+      <div class="footer-section">
+
+        <div class="menu-section">
+          
+          <ul>
+            <li style="font-size: 22px; font-weight: 600;">Link</li>
+            <li class="">
+              <a class="" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#packages">Packages</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="" href="#services">Services</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="" href="./gallary.html">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-logo">
+          <a href="">
+            <img src="./images/logo/NGT.png" alt="NayaraGlobalTrips" width="200px">
+          </a>
+          <h4>Contact Us</h4>
+          <p><i class='bx bx-phone'></i> <span style="font-size: 22px;"> <i class="fa-solid fa-phone"></i>+91
+              9311366398 (24×7)</span></p>
+          <p><i class='bx bx-phone'></i> <span style="font-size: 22px;"> <i class="fa-solid fa-phone"></i>+91
+              9123874363</span></p>
+          <h4>Email-id</h4>
+          <p id="email"><i class='bx bx-phone'></i> <span style="font-size:22px;"><a
+                href="https://mail.google.com/mail/u/3/#inbox?compose=new">
+                nayaraglobaltrips@gmail.com</a></span></p>
+
+
+        </div>
+
+        <div class="contact-section">
+          <h3><img src="./images/logo/icons8-location-50.png" alt="NayaraGlobalTrips"> Noida</h3>
+          <span>Sector 34, Noida,
+            Gautam Buddha Nagar, Uttar Pardesh
+            Pin - 201301</span>
+          <div>
+            <a href="#" target="_blank"><img src="./images/social icons/instagram-icon.png" alt="instagram" width="60px"></a>
+            <a href="#" target="_blank"> <img src="./images/social icons/facebook-icon.png" alt="youtube" width="60px"></a>
+              <a href="#" target="_blank"><img src="./images/social icons/linkedin-icon.png" alt="facebook" width="60px"></a>
+                <a href="#" target="_blank"><img src="./images/social icons/whatsapp-icon.png" alt="whatsapp" width="60px"></a>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+      <p>
+        Nayara Global Trips crafts immersive journeys to breathtaking destinations, curating unforgettable experiences for the adventurous soul. Let us unveil the world's hidden gems, from sun-kissed beaches to ancient wonders, on a voyage tailored to your dreams. Escape the ordinary and embrace the extraordinary. Travel with Nayara.
+      </p>
+
+      <div class="copyright">
+        <p>&copy;Copyright NayaraGlobalTrips. All Rights Reserved</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+    <!-- Footer Start -->
+
+
+    <!-- <footer id="footer">
+      <h1><img src="./images/nayaraglobaltriplogo.png" alt="" width="200px"></h1>
+      <p>Nayara Global Trips crafts immersive journeys to breathtaking destinations, curating unforgettable experiences for the adventurous soul. 
+        Let us unveil the world's hidden gems, from sun-kissed beaches to ancient wonders, 
+        on a voyage tailored to your dreams. Escape the ordinary and embrace the extraordinary. Travel with Nayara.</p>
+      <div class="social-links">
+       
+        <h1>Contact Us</h1>
+        <p><i class='bx bx-phone'></i> <span style="font-size: 22px;"> <i class="fa-solid fa-phone"></i>+91 9311366398</span></p>
+        <p><i class='bx bx-phone'></i> <span style="font-size: 22px;"> <i class="fa-solid fa-phone"></i>+91 9123874363</span></p>
+        <h1>Email-id</h1>
+        <p><i class='bx bx-phone'></i> <span style="font-size: 22px; color: black;"><a href="nayaraglobaltrips@gmail.com">nayaraglobaltrips@gmail.com</a></span></p>
+
+
+        <img src="./images/instagram-icon.png" alt="instagram" width="60px">
+        <img src="./images/facebook-icon.png" alt="instagram" width="60px">
+        <img src="./images/linkedin-icon.png" alt="instagram" width="60px">
+        <img src="./images/whatsapp-icon.png" alt="instagram" width="60px">
+      </div>
+
+      <div class="copyright">
+        <p>&copy;Copyright NayaraGlobalTrips. All Rights Reserved</p>
+      </div>
+    </footer> -->
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> 
+    <script src="./script.js"></script>
+
+</body>
+</html>
