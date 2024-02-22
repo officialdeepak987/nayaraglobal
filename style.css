@@ -42,6 +42,21 @@ color: #ffa500;
 }
 
 
+@media(max-width:750px){
+    .banner{
+        display: flex;
+        flex-direction:row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        background-color: #f9f9f9;
+    }
+
+    
+}
+
+
 #navbar{
     background: #f9f9f9;
 }
