@@ -281,6 +281,78 @@ transition: 0.5s;
 /*  book section end*/
 
 
+
+/*  tour guid follow */
+
+.follow-chart{
+
+ box-shadow: rgba(10, 10, 10, 0.5)0px 4px 12px;
+}
+
+.guid{
+    display: flex;
+   justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 1.3rem;
+
+}
+.guid-data  img{
+    padding-top:10px;
+    color: #ffa500;
+   
+}
+.guid-data .text h2{
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+.guid-data .text p{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.arrow{
+  
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.button{
+    text-align: center;
+    padding: 0px; 
+    position: relative;
+    top: 30px;
+   
+}
+
+
+#guid-plane{
+    padding: 20px;
+     background-color: #fff;
+    border-color: #ffa500;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#guid-plane:hover{
+    background-color: #ffa500;
+    color: #f9f9f9;
+}
+
+@media(max-width:750px){
+    .arrow{
+        display: none;
+    }
+}
+
+/*  tour guid follow end */
+
+
+
 /*   */
 .cards{
     display: flex;
